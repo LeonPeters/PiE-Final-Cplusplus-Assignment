@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.cpp">
+			<Option target="PiE_FinalAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h">
+			<Option target="PiE_FinalAssignment"/>
+		</Unit>
 		<Unit filename="C:/Users/peter/CLionProjects/PiE_FinalAssignment/main.cpp">
 			<Option target="PiE_FinalAssignment"/>
 		</Unit>

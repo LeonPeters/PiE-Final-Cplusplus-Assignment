@@ -142,6 +142,33 @@ PiE_FinalAssignment/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PiE_FinalAssignment.dir\build.make CMakeFiles/PiE_FinalAssignment.dir/build
 .PHONY : PiE_FinalAssignment/fast
 
+Deck.obj: Deck.cpp.obj
+
+.PHONY : Deck.obj
+
+# target to build an object file
+Deck.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PiE_FinalAssignment.dir\build.make CMakeFiles/PiE_FinalAssignment.dir/Deck.cpp.obj
+.PHONY : Deck.cpp.obj
+
+Deck.i: Deck.cpp.i
+
+.PHONY : Deck.i
+
+# target to preprocess a source file
+Deck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PiE_FinalAssignment.dir\build.make CMakeFiles/PiE_FinalAssignment.dir/Deck.cpp.i
+.PHONY : Deck.cpp.i
+
+Deck.s: Deck.cpp.s
+
+.PHONY : Deck.s
+
+# target to generate assembly for a file
+Deck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PiE_FinalAssignment.dir\build.make CMakeFiles/PiE_FinalAssignment.dir/Deck.cpp.s
+.PHONY : Deck.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PiE_FinalAssignment
+	@echo ... Deck.obj
+	@echo ... Deck.i
+	@echo ... Deck.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

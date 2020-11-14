@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
+vector
+-
+
 C:/Users/peter/CLionProjects/PiE_FinalAssignment/main.cpp
 iostream
--
-vector
 -
 cstdlib
 -
 ctime
 -
-algorithm
--
+Deck.h
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
 
