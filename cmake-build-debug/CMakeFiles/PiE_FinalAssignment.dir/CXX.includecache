@@ -10,6 +10,24 @@ C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
 vector
 -
 
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.cpp
+genHand.h
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.h
+iostream
+-
+vector
+-
+sstream
+-
+string
+-
+
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.h
+Deck.h
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
+vector
+-
+
 C:/Users/peter/CLionProjects/PiE_FinalAssignment/main.cpp
 iostream
 -
@@ -19,4 +37,10 @@ ctime
 -
 Deck.h
 C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
+genHand.h
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.h
+vector
+-
+sstream
+-
 

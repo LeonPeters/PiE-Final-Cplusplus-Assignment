@@ -3,7 +3,6 @@
 //
 
 #include "Deck.h"
-#include <iostream>
 #include <vector>
 #include <cstdlib> //for rand() and srand()
 #include <algorithm> //for find()
@@ -16,13 +15,11 @@ std::vector<int> Deck::deal() {
 
     int randomNumber1 = rand() % 13;  //if i use the library they say, it says to use the updated library
     int card1 = deck[randomNumber1];
-
     std::vector<int>::iterator position1 = std::find(deck.begin(), deck.end(), card1); //declare iterator as the position in deck vector where card1 is
     deck.erase(position1); //removes the dealt card from deck
 
     int randomNumber2 = rand() % 13;
     int card2 = deck[randomNumber2];
-
     std::vector<int>::iterator position2 = std::find(deck.begin(), deck.end(), card2);
     deck.erase(position2);
 
@@ -33,8 +30,10 @@ std::vector<int> Deck::deal() {
 int Deck::hit(){
     int randomNumber = rand() % 13;
     int card = deck[randomNumber];
+
     std::vector<int>::iterator position = std::find(deck.begin(), deck.end(), card);
     deck.erase(position);
+
     return card;
 }
 
@@ -45,9 +44,7 @@ void Deck::newDeck(){
              2,3,4,5,6,7,8,9,10,11,12,13,14 }; //as there are 4 suits (which dont matter in blackjack)
 }
 
-void Deck::displayDeck(){
-    for (int i = 0; i < deck.size(); i++){
-        std::cout << deck[i] << '\t';
-    }
-    std::cout<<std::endl;
+std::vector<int> Deck::returnDeck(){
+    std::vector<int> deck_ = deck;
+    return deck_;
 }

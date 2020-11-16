@@ -4,6 +4,11 @@
 CMakeFiles/PiE_FinalAssignment.dir/Deck.cpp.obj: ../Deck.cpp
 CMakeFiles/PiE_FinalAssignment.dir/Deck.cpp.obj: ../Deck.h
 
+CMakeFiles/PiE_FinalAssignment.dir/genHand.cpp.obj: ../Deck.h
+CMakeFiles/PiE_FinalAssignment.dir/genHand.cpp.obj: ../genHand.cpp
+CMakeFiles/PiE_FinalAssignment.dir/genHand.cpp.obj: ../genHand.h
+
 CMakeFiles/PiE_FinalAssignment.dir/main.cpp.obj: ../Deck.h
+CMakeFiles/PiE_FinalAssignment.dir/main.cpp.obj: ../genHand.h
 CMakeFiles/PiE_FinalAssignment.dir/main.cpp.obj: ../main.cpp
 

@@ -169,6 +169,33 @@ Deck.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PiE_FinalAssignment.dir\build.make CMakeFiles/PiE_FinalAssignment.dir/Deck.cpp.s
 .PHONY : Deck.cpp.s
 
+genHand.obj: genHand.cpp.obj
+
+.PHONY : genHand.obj
+
+# target to build an object file
+genHand.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PiE_FinalAssignment.dir\build.make CMakeFiles/PiE_FinalAssignment.dir/genHand.cpp.obj
+.PHONY : genHand.cpp.obj
+
+genHand.i: genHand.cpp.i
+
+.PHONY : genHand.i
+
+# target to preprocess a source file
+genHand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PiE_FinalAssignment.dir\build.make CMakeFiles/PiE_FinalAssignment.dir/genHand.cpp.i
+.PHONY : genHand.cpp.i
+
+genHand.s: genHand.cpp.s
+
+.PHONY : genHand.s
+
+# target to generate assembly for a file
+genHand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PiE_FinalAssignment.dir\build.make CMakeFiles/PiE_FinalAssignment.dir/genHand.cpp.s
+.PHONY : genHand.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -208,6 +235,9 @@ help:
 	@echo ... Deck.obj
 	@echo ... Deck.i
 	@echo ... Deck.s
+	@echo ... genHand.obj
+	@echo ... genHand.i
+	@echo ... genHand.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -3,4 +3,4 @@ project(PiE_FinalAssignment)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PiE_FinalAssignment main.cpp Deck.cpp Deck.h)
+add_executable(PiE_FinalAssignment main.cpp Deck.cpp Deck.h genHand.cpp genHand.h)

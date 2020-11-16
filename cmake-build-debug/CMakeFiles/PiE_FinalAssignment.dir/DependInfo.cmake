@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.cpp" "C:/Users/peter/CLionProjects/PiE_FinalAssignment/cmake-build-debug/CMakeFiles/PiE_FinalAssignment.dir/Deck.cpp.obj"
+  "C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.cpp" "C:/Users/peter/CLionProjects/PiE_FinalAssignment/cmake-build-debug/CMakeFiles/PiE_FinalAssignment.dir/genHand.cpp.obj"
   "C:/Users/peter/CLionProjects/PiE_FinalAssignment/main.cpp" "C:/Users/peter/CLionProjects/PiE_FinalAssignment/cmake-build-debug/CMakeFiles/PiE_FinalAssignment.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

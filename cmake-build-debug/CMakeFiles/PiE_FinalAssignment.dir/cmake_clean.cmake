@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PiE_FinalAssignment.dir/Deck.cpp.obj"
+  "CMakeFiles/PiE_FinalAssignment.dir/genHand.cpp.obj"
   "CMakeFiles/PiE_FinalAssignment.dir/main.cpp.obj"
   "PiE_FinalAssignment.exe"
   "PiE_FinalAssignment.exe.manifest"
