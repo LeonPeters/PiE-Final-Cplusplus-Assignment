@@ -12,6 +12,7 @@
 //To do:
 //Ace can be 1 or 11
 //What happens at tie
+//Put in user input for when house gets blackjack
 
 
 
