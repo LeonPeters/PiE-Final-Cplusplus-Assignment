@@ -3,126 +3,46 @@
 #include <cstdlib> //for rand() and srand()
 #include <ctime> //for time
 
-#include "Deck.h"
-#include "genHand.h"
-
-#include <vector>
+#include "blackjackGame.h"
 #include <sstream>
 
 //To do:
 //Ace can be 1 or 11
-//What happens at tie
 //Put in user input for when house gets blackjack
-
+//Put in money system
+//Add multiple players
+//Add split, divide (and other blackjack specific actions)
+//  split for when house and player ties
 
 
 int main() {
     srand((unsigned) time(0)); //setting a seed (so that rand() function has different sequence for every execution)
-
-    genHand h;
-    Deck d;
-
-    bool win;
-    int playerSum;
-    int houseSum;
-    bool playDone = false;
+    bool play = true;
 
     std::cout << "WELCOME TO BLACKJACK" << std::endl;
     std::cout << std::endl;
 
-    //Deal 2 cards to player and house (should put these into a class, also for more players later)
-    std::vector<int> playerCards = h.takeCards('d', d.deck);
-    std::vector<int> houseCards = h.takeCards('d', d.deck);
+    while(play) {
+        int x = blackjack(); //x = 1: win, x = 0: loss, x = -1: tie
 
-//    for (int i : d.returnDeck()){
-//        std::cout << i << " ";
+        std::cout << "\n Do you want to play again? (y/n) " << std::endl;
+        char charPlay;
+        std::cin >> charPlay;
+        while (charPlay != 'n' & charPlay != 'y'){
+            std::cerr<<"Wrong input, please enter either y or n: " << std::endl;
+            std::cin >> charPlay;
+        }
+        if (charPlay == 'y') {
+            play = true;
+        } else if (charPlay == 'n') {
+            std::cout<<"Thank you for playing" << std::endl;
+            play = false;
+        }
+
+    }
+
+
 //    }
-
-    //Display player and house cards --> edit display function so that it converts 11-14 to card characters
-            //Hide one card of house
-    std::cout << "You are dealt: ";
-    h.displayHand(playerCards);
-
-    std::cout << "The house has hand: ";
-    h.displayHand(houseCards, true); //optional parameter: hidden = true (to hide second card)
-
-   // std::cout << "The house has cards: " << houseCards[0] << " *hidden*" << std::endl;
-
-    playerSum = h.handSum(playerCards);
-    houseSum = h.handSum(houseCards);
-    if (playerSum == 21){
-        win = true;
-        playDone = true;
-    }
-    else if (houseSum == 21){
-        win = false;
-        playDone = true;
-    }
-
-
-    //Ask player to hit or stay until they bust or dont want more cards
-    while (!playDone) {
-        std::cout << std::endl;
-        std::cout << "Do you want to hit or stay? (H/S) " << std::endl;
-        char playerDec;
-        std::cin >> playerDec;
-
-        if (playerDec == 'H') {
-            std::vector<int> playerTemp = h.takeCards('h', d.deck);
-            //std::cout << "You got card: " << temp[0] << std::endl; //display cards function here
-            playerCards.push_back(playerTemp[0]);
-            std::cout << "Your hand is: ";
-            h.displayHand(playerCards);
-            playerSum = h.handSum(playerCards);
-            if (playerSum > 21) {
-                std::cout << "You busted" << std::endl;
-                win = false;
-                playDone = true;
-            }
-            if (playerSum == 21){
-                win = true;
-                playDone = true;
-            }
-        }
-        else if (playerDec == 'S') {
-            playerSum = h.handSum(playerCards);
-            playDone = true;
-        }
-        //else error message and ask to reenter user input
-    }
-
-    if (playerSum < 21 && playerSum > 0){
-        std::cout << "The house has hand: ";
-        h.displayHand(houseCards);
-        while (houseSum < 17){
-            std::vector<int> houseTemp = h.takeCards('h', d.deck);
-            houseCards.push_back(houseTemp[0]);
-            std::cout << "The house has hand: ";
-            h.displayHand(houseCards);
-            houseSum = h.handSum(houseCards);
-            if (houseSum > 21){
-                std::cout << "House busts" << std::endl;
-                win = true;
-            }
-        }
-
-        if (playerSum > houseSum && playerSum <= 21){
-            win = true;
-        }
-        else if (playerSum < houseSum && houseSum <= 21){
-            win = false;
-        }
-        else if (playerSum == houseSum){
-            std::cout << "You and the house tie" << std::endl;
-        }
-    }
-
-    if (win){
-        std::cout << "YOU WIN BLACKJACK" << std::endl;
-    }
-    if (!win){
-        std::cout << "SORRY YOU LOSE" << std::endl;
-    }
 
 
 

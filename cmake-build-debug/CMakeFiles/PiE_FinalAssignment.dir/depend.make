@@ -4,11 +4,17 @@
 CMakeFiles/PiE_FinalAssignment.dir/Deck.cpp.obj: ../Deck.cpp
 CMakeFiles/PiE_FinalAssignment.dir/Deck.cpp.obj: ../Deck.h
 
+CMakeFiles/PiE_FinalAssignment.dir/blackjackGame.cpp.obj: ../Deck.h
+CMakeFiles/PiE_FinalAssignment.dir/blackjackGame.cpp.obj: ../blackjackGame.cpp
+CMakeFiles/PiE_FinalAssignment.dir/blackjackGame.cpp.obj: ../blackjackGame.h
+CMakeFiles/PiE_FinalAssignment.dir/blackjackGame.cpp.obj: ../genHand.h
+
 CMakeFiles/PiE_FinalAssignment.dir/genHand.cpp.obj: ../Deck.h
 CMakeFiles/PiE_FinalAssignment.dir/genHand.cpp.obj: ../genHand.cpp
 CMakeFiles/PiE_FinalAssignment.dir/genHand.cpp.obj: ../genHand.h
 
 CMakeFiles/PiE_FinalAssignment.dir/main.cpp.obj: ../Deck.h
+CMakeFiles/PiE_FinalAssignment.dir/main.cpp.obj: ../blackjackGame.h
 CMakeFiles/PiE_FinalAssignment.dir/main.cpp.obj: ../genHand.h
 CMakeFiles/PiE_FinalAssignment.dir/main.cpp.obj: ../main.cpp
 

@@ -10,17 +10,19 @@ C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
 vector
 -
 
-C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.cpp
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/blackjackGame.cpp
+blackjackGame.h
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/blackjackGame.h
+Deck.h
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
 genHand.h
 C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.h
-iostream
--
 vector
 -
-sstream
+iostream
 -
-string
--
+
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/blackjackGame.h
 
 C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.h
 Deck.h
@@ -39,6 +41,8 @@ Deck.h
 C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
 genHand.h
 C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.h
+blackjackGame.h
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/blackjackGame.h
 vector
 -
 sstream

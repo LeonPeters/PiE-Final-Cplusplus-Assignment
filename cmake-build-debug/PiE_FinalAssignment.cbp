@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h">
 			<Option target="PiE_FinalAssignment"/>
 		</Unit>
+		<Unit filename="C:/Users/peter/CLionProjects/PiE_FinalAssignment/blackjackGame.cpp">
+			<Option target="PiE_FinalAssignment"/>
+		</Unit>
+		<Unit filename="C:/Users/peter/CLionProjects/PiE_FinalAssignment/blackjackGame.h">
+			<Option target="PiE_FinalAssignment"/>
+		</Unit>
 		<Unit filename="C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.cpp">
 			<Option target="PiE_FinalAssignment"/>
 		</Unit>
