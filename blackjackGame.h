@@ -1,10 +1,12 @@
 //
-// Created by peter on 22/11/2020.
+// Created by Leon on 22/11/2020.
 //
+
+#include <vector>
 
 #ifndef PIE_FINALASSIGNMENT_BLACKJACKGAME_H
 #define PIE_FINALASSIGNMENT_BLACKJACKGAME_H
 
-int blackjack();
+std::vector<int> blackjack();
 
 #endif //PIE_FINALASSIGNMENT_BLACKJACKGAME_H

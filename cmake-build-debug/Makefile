@@ -169,6 +169,33 @@ Deck.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PiE_FinalAssignment.dir\build.make CMakeFiles/PiE_FinalAssignment.dir/Deck.cpp.s
 .PHONY : Deck.cpp.s
 
+Players.obj: Players.cpp.obj
+
+.PHONY : Players.obj
+
+# target to build an object file
+Players.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PiE_FinalAssignment.dir\build.make CMakeFiles/PiE_FinalAssignment.dir/Players.cpp.obj
+.PHONY : Players.cpp.obj
+
+Players.i: Players.cpp.i
+
+.PHONY : Players.i
+
+# target to preprocess a source file
+Players.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PiE_FinalAssignment.dir\build.make CMakeFiles/PiE_FinalAssignment.dir/Players.cpp.i
+.PHONY : Players.cpp.i
+
+Players.s: Players.cpp.s
+
+.PHONY : Players.s
+
+# target to generate assembly for a file
+Players.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PiE_FinalAssignment.dir\build.make CMakeFiles/PiE_FinalAssignment.dir/Players.cpp.s
+.PHONY : Players.cpp.s
+
 blackjackGame.obj: blackjackGame.cpp.obj
 
 .PHONY : blackjackGame.obj
@@ -262,6 +289,9 @@ help:
 	@echo ... Deck.obj
 	@echo ... Deck.i
 	@echo ... Deck.s
+	@echo ... Players.obj
+	@echo ... Players.i
+	@echo ... Players.s
 	@echo ... blackjackGame.obj
 	@echo ... blackjackGame.i
 	@echo ... blackjackGame.s

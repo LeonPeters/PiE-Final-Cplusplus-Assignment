@@ -6,13 +6,16 @@
 #include "blackjackGame.h"
 #include <sstream>
 
-//To do:
-//Ace can be 1 or 11
-//Put in user input for when house gets blackjack
-//Put in money system
-//Add multiple players
-//Add split, divide (and other blackjack specific actions)
+//To-do:
+//Ace can be 1 or 11 (currently it just takes value 11)
+
+//Put in money/betting system
+//Add split, divide (and other blackjack specific actions --> research blackjack game rules)
 //  split for when house and player ties
+// UI:
+//      display who wins (already have vector that holds which players won) --> just needs conversion to output
+//      make the general UI nicer and easier to follow
+// Change so it continues playing with same players and saves names/balances etc (only resets deck after each game)
 
 
 int main() {
@@ -22,13 +25,17 @@ int main() {
     std::cout << "WELCOME TO BLACKJACK" << std::endl;
     std::cout << std::endl;
 
-    while(play) {
-        int x = blackjack(); //x = 1: win, x = 0: loss, x = -1: tie
 
-        std::cout << "\n Do you want to play again? (y/n) " << std::endl;
+    while(play) {
+        std::vector<int> x = blackjack(); //x = 1: win, x = 0: loss, x = -1: tie
+        for (int i = 0; i < x.size(); i++){
+            std::cout << x[i] << std::endl;
+        }
+
+        std::cout << "\nDo you want to play again? (y/n) " << std::endl;
         char charPlay;
         std::cin >> charPlay;
-        while (charPlay != 'n' & charPlay != 'y'){
+        while (charPlay != 'n' && charPlay != 'y'){
             std::cerr<<"Wrong input, please enter either y or n: " << std::endl;
             std::cin >> charPlay;
         }
@@ -39,7 +46,10 @@ int main() {
             play = false;
         }
 
+
+
     }
+
 
 
 //    }

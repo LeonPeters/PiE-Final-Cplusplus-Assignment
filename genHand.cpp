@@ -1,5 +1,5 @@
 //
-// Created by peter on 16/11/2020.
+// Created by Leon on 16/11/2020.
 //
 
 #include "genHand.h"

@@ -10,6 +10,20 @@ C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
 vector
 -
 
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/Players.h
+Deck.h
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
+genHand.h
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.h
+vector
+-
+algorithm
+-
+iostream
+-
+string
+-
+
 C:/Users/peter/CLionProjects/PiE_FinalAssignment/blackjackGame.cpp
 blackjackGame.h
 C:/Users/peter/CLionProjects/PiE_FinalAssignment/blackjackGame.h
@@ -17,12 +31,18 @@ Deck.h
 C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
 genHand.h
 C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.h
+Players.h
+C:/Users/peter/CLionProjects/PiE_FinalAssignment/Players.h
 vector
+-
+algorithm
 -
 iostream
 -
 
 C:/Users/peter/CLionProjects/PiE_FinalAssignment/blackjackGame.h
+vector
+-
 
 C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.h
 Deck.h
@@ -37,14 +57,8 @@ cstdlib
 -
 ctime
 -
-Deck.h
-C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
-genHand.h
-C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.h
 blackjackGame.h
 C:/Users/peter/CLionProjects/PiE_FinalAssignment/blackjackGame.h
-vector
--
 sstream
 -
 

@@ -4,8 +4,14 @@
 CMakeFiles/PiE_FinalAssignment.dir/Deck.cpp.obj
  C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.cpp
  C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
+CMakeFiles/PiE_FinalAssignment.dir/Players.cpp.obj
+ C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
+ C:/Users/peter/CLionProjects/PiE_FinalAssignment/Players.cpp
+ C:/Users/peter/CLionProjects/PiE_FinalAssignment/Players.h
+ C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.h
 CMakeFiles/PiE_FinalAssignment.dir/blackjackGame.cpp.obj
  C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
+ C:/Users/peter/CLionProjects/PiE_FinalAssignment/Players.h
  C:/Users/peter/CLionProjects/PiE_FinalAssignment/blackjackGame.cpp
  C:/Users/peter/CLionProjects/PiE_FinalAssignment/blackjackGame.h
  C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.h
@@ -14,7 +20,5 @@ CMakeFiles/PiE_FinalAssignment.dir/genHand.cpp.obj
  C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.cpp
  C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.h
 CMakeFiles/PiE_FinalAssignment.dir/main.cpp.obj
- C:/Users/peter/CLionProjects/PiE_FinalAssignment/Deck.h
  C:/Users/peter/CLionProjects/PiE_FinalAssignment/blackjackGame.h
- C:/Users/peter/CLionProjects/PiE_FinalAssignment/genHand.h
  C:/Users/peter/CLionProjects/PiE_FinalAssignment/main.cpp
